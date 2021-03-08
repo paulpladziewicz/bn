@@ -1,0 +1,18 @@
+{
+  "name": "bn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build styles/global.css -o dist/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {}
+}
