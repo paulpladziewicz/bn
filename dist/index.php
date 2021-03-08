@@ -5,7 +5,7 @@
 <?php require_once "nav.php" ?>
 
 <div class="my-page mx-4">
-    <img class="md:hidden w-full" src="images/jumbotron.jpeg"
+    <img class="md:hidden w-full mb-4" src="images/jumbotron.jpeg"
          alt="modern website displayed well on each type of device">
     <h1 class="h1 font-semibold mb-8 text-primary">Custom Built Modern Websites</h1>
     <img class="hidden bp920:block md:m-3 w-6/12 float-right" src="images/jumbotron.jpeg"
@@ -16,15 +16,15 @@
     <p class="text-2xl font-extralight mx-2 md:w-5/12">Practical websites built for your specific business, utilizing
         the latest technology.</p>
     <div class="mt-8 ml-2">
-        <a class="inline-block py-3 px-4 bg-primary text-white rounded-lg" href="">Get Started</a>
-        <a class="ml-3 inline-block py-3 px-4 border border-primary text-primary rounded-lg" href="">Learn More</a>
+        <a class="inline-block py-3 px-4 bg-primary hover:bg-secondary border border-primary hover:border-secondary text-white rounded-lg" href="">Get Started</a>
+        <a class="ml-3 inline-block py-3 px-4 border border-primary hover:border-secondary text-primary hover:text-secondary rounded-lg" href="">Learn More</a>
     </div>
 </div>
 
 <div class="clear-both"></div>
 
 <section id="about" class="my-section mx-4">
-    <div class="flex items-center">
+    <div class="flex flex-col bp920:flex-row items-center">
         <div class="w-full py-8 px-8 rounded-md bg-primary">
             <h2 class="text-5xl mb-6 text-center font-semibold text-gray-200">
                 Our Websites Are
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="ml-20">
+        <div class="text-center mt-20 bp920:ml-20">
             <h2 class="h2 font-bold text-primary">
                 Excellent first impressions. Thoughtful customer experiences.
             </h2>
@@ -85,8 +85,8 @@
     <h2 class="h2 font-bold text-primary">
         Why <span class="border-b-8 border-secondary">Bracket Network</span>
     </h2>
-    <div class="flex mt-12">
-        <div class="w-1/3 pr-4">
+    <div class="flex flex-wrap justify-center">
+        <div class="w-1/3 pr-4 w-full sm:w-1/2 lg:w-1/3 mt-12" style="min-width: 328px">
             <img class="w-full rounded-2xl" src="images/custom-design.jpeg" alt=""/>
             <div class="px-2">
                 <h3 class="text-2xl font-semibold text-primary mt-4 mb-2">
@@ -97,7 +97,7 @@
                 </p>
             </div>
         </div>
-        <div class="w-1/3 px-2">
+        <div class="w-1/3 px-2 w-full sm:w-1/2 lg:w-1/3 mt-12" style="min-width: 328px">
             <img class="w-full rounded-2xl" src="images/fees.jpeg" alt=""/>
             <div class="px-2">
                 <h3 class="text-2xl font-semibold text-primary mt-4 mb-2">
@@ -109,7 +109,7 @@
                 </p>
             </div>
         </div>
-        <div class="w-1/3 pl-4">
+        <div class="w-1/3 pl-4 w-full sm:w-1/2 lg:w-1/3 mt-12" style="min-width: 328px">
             <img class="w-full rounded-2xl" src="images/communicate.jpeg" alt=""/>
             <div class="px-2">
                 <h3 class="text-2xl font-semibold text-primary mt-4 mb-2">
@@ -173,12 +173,12 @@
 </section>
 
 <div class="mt-48 mb-24">
-    <div class="text-center mb-8">
+    <div class="text-center mb-8 mx-4">
         <h2 class="h2 font-semibold text-primary mb-4">Give us a try.</h2>
         <p class="text-2xl font-extralight">Let's discuss your goals and develop a plan.</p>
     </div>
 
-    <div class="mx-auto px-3" style="max-width: 500px">
+    <div class="mx-auto px-4" style="max-width: 500px">
         <form class='flex flex-col' id='contact' method="post" action="https://www.bracketnetwork.com/">
 
             <label class='mb-2 font-bold text-xl ml-1'>Name</label>
