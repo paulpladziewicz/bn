@@ -4,5 +4,6 @@
 
 
 <script src="js/nav.js"></script>
+<script src="js/form.js"></script>
 </body>
 </html>

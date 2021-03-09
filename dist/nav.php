@@ -1,4 +1,4 @@
-<nav class="m-4 flex justify-between items-center">
+<nav class="my-4 mx-4 flex justify-between items-center">
     <a class="flex items-center" href="/">
         <img class="w-12" src="images/logo-rec.svg" alt="logo">
         <span class="block text-3xl text-primary font-semibold ml-2">Bracket Network</span>
@@ -17,10 +17,10 @@
     </div>
 <!--    Desktop-->
     <div class="hidden md:block">
-        <a class="ml-4 text-xl text-primary hover:text-secondary font-light" href="#home">Home</a>
-        <a class="ml-4 text-xl text-primary hover:text-secondary font-light" href="#about">About</a>
-        <a class="ml-4 text-xl text-primary hover:text-secondary font-light" href="#services">Services</a>
-        <a class="ml-4 text-xl text-primary hover:text-secondary font-light" href="#contact">Contact</a>
+        <a class="ml-4 bp920:ml-6 lg:ml-8 text-xl text-primary hover:text-secondary font-light" href="#home">Home</a>
+        <a class="ml-4 bp920:ml-6 lg:ml-8 text-xl text-primary hover:text-secondary font-light" href="#about">About</a>
+        <a class="ml-4 bp920:ml-6 lg:ml-8 text-xl text-primary hover:text-secondary font-light" href="#services">Services</a>
+        <a class="ml-4 bp920:ml-6 lg:ml-8 text-xl text-primary hover:text-secondary font-light" href="#contact">Contact</a>
     </div>
 </nav>
 
